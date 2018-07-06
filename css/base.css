@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	font-family: monospace;
+	letter-spacing: 2px;
+}
+
+b{
+	letter-spacing: 4px;
+}
+
+ul{
+    margin: 0px;
+}
+
+li{
+	display: inline;
+}
+
+
+a{
+	text-decoration: none;
+	color: black;
+	padding: 8px;
+}
+
+a:hover{
+	background-color: #D7D5D5;
+}
+
+hr{
+	border-color: #FAFAFA;
+	margin-bottom: 35px;
+}
+
+input{
+	width: 98.4%;
+    padding: 10px;
+    margin-bottom: 30px;
+    font-family: cursive;
+    font-size: 14px;
+}
+

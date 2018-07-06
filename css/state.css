@@ -1,0 +1,108 @@
+.module a, .mod a{
+	letter-spacing: 0px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #F3F3F3;
+    padding: 10px 30px;
+    margin-right: 10px;
+}
+
+.mod a{
+	margin-left: 30%;
+}
+
+.module a:hover, .mod a:hover{
+	background-color: #B6B4B4; 
+}
+
+footer a:hover{
+	padding: 0px;
+	background-color: black;
+	color: green;
+}
+
+#facebook:hover{
+	color: #3B5998;
+}
+#twitter:hover{
+	color: #1dcaff;
+}
+#linkedIn:hover{
+	color: #0077B5;
+}
+#google:hover{
+	color: #F85C5C;
+}
+#quora:hover{
+	color: #AA2200;
+}
+@media (max-width: 780px){
+	.container{
+		flex-wrap: wrap;
+	}
+	.box,.module{
+		width: 50%;
+	}
+	.module{
+		padding-bottom: 30px;
+		text-align: center;
+	}
+	section {
+		margin: 20px 30px 0px 30px;
+	}
+	.container-one{
+		flex-direction: column;
+	}
+	.mod{
+		padding-top: 20px;
+		text-align: center;
+	}
+	.mod a{
+		margin-left: 0px;
+	}
+	.text{
+		font-size: 24px;
+	}
+}
+@media(max-width: 680px){
+	header{
+		flex-direction: column;
+		font-size: 14px;
+		text-align: center;
+	}
+	.logo{
+		padding-bottom: 22px;
+		padding-left: 0px;
+	}
+	nav{
+		word-spacing: 2px;
+	}
+	header a:hover{
+		text-decoration: underline;
+		background-color: white;
+		color: green;
+	}
+	ul{
+		padding-left: 0px;
+	}
+	.sectionHead{
+		text-align: center;
+	}
+	.text{
+		font-size: 16px;
+	}
+}
+@media (max-width: 340px){
+	.container{
+		flex-direction: column;
+	}
+	.box,.module{
+		width: 100%;
+	}
+	.text{
+		display: none;
+	}
+	.submit{
+		margin-left: 20%;
+	}
+}
